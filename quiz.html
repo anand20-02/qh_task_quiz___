@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <script src="https://kit.fontawesome.com/5d9f2194b7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width:1246px)" href="css/phone.css">
+
+</head>
+
+<body>
+    <div id="container">
+        <div class="navbar">
+            <ul class="ul">
+                <div class="left">
+                    <div class="logo">
+                        <img src="https://quantumhunts.com/user/assets/images/square1_qh.png" alt="">
+                    </div>
+                    <div class="search">
+                        <div class="inb">
+                            <i class="fas fa-search"></i>
+                            <input class="in" type="text" placeholder="Jobs, People, Courses">
+                        </div>
+                        <button class="btn">
+                            Search
+                        </button>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="lis">
+                        <div class="fli">
+                            <li style="text-align: center;"><i class="fas fa-graduation-cap"></i></li>
+                            <li class="li"><a href="index.html">Courses</a> </li>
+                        </div>
+                        <div class="fli">
+                            <li style="text-align: center;"><i class="fas fa-users"></i></li>
+                            <li class="li"><a href="index.html">People</a> </li>
+                        </div>
+                        <div class="fli recruiter">
+                            <li style="text-align: center;"><i class="far fa-newspaper"></i></li>
+                            <li class="li"><a href="index.html">Recruiter</a> </li>
+                        </div>
+                        <div class="fli">
+                            <li style="text-align: center;"><i class="fas fa-briefcase"></i></li>
+                            <li class="li"><a href="index.html">Jobs</a> </li>
+                        </div>
+                        <div class="user_img">
+                            <img src="/227883-img20200125221043.jpg" alt="" class="user">
+                        </div>
+
+                    </div>
+                </div>
+
+            </ul>
+        </div>
+    </div>
+    <div class="heading">
+        <i class="fas fa-brain"></i>
+        <h1 class="heading_ins">
+            AI and ML quiz
+        </h1>
+        <i class="fas fa-brain"></i>
+    </div>
+    <div class="middle_sec_in">
+        <div class="left_side_box">
+
+
+            <div class="box_in">
+                <div class="left_side">
+                    <p class="p_left">Type</p>
+                    <p class="p_left">Questions</p>
+                    <p class="p_left">Scoring Policy</p>
+                    <p class="p_left">Min Marks</p>
+                    <p class="p_left">Max Marks</p>
+                </div>
+                <div class="left_side_2">
+                    <p class="p_left">:</p>
+                    <p class="p_left">:</p>
+                    <p class="p_left">:</p>
+                    <p class="p_left">:</p>
+                    <p class="p_left">:</p>
+                </div>
+                <div class="right_side">
+                    <p class="p_right">Graded Quiz</p>
+                    <p class="p_right">10</p>
+                    <p class="p_right">Highest Graded</p>
+                    <p class="p_right">6 <span id="passed"> passed</span></p>
+                    <p class="p_right">10</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    </div>
+    <div class="middle_sec">
+
+
+
+
+        <div class="box">
+            <div class="timer_box">
+                <div class="time_left">
+                    Time left: &nbsp;
+                </div>
+                <div class="timeCount">
+                    30
+                </div>
+                <div class="sec">
+                    &nbsp;sec
+                </div>
+                <div class="timetext">
+
+                </div>
+            </div>
+            <div class="container_in">
+
+                <h2 class="question">
+                    what s going on bro
+                </h2>
+                <ul class="ulm">
+                    <li class="lim">
+                        <div id="count"></div>
+                        <input type="radio" name="que" id="ans1" class="que">
+                        <label for="que" id="opt1">Option 1</label>
+                    </li>
+                    <li class="lim">
+                        <div id="count"></div>
+                        <input type="radio" name="que" id="ans2" class="que">
+                        <label for="que" id="opt2">Option 2</label>
+                    </li>
+                    <li class="lim">
+                        <div id="count"></div>
+                        <input type="radio" name="que" id="ans3" class="que">
+                        <label for="que" id="opt3">Option 3</label>
+                    </li>
+                    <li class="lim">
+                        <div id="count"></div>
+                        <input type="radio" name="que" id="ans4" class="que">
+                        <label for="que" id="opt4">Option 4</label>
+                    </li>
+                </ul>
+                <div class="butns" style="display: flex ; margin-top: 41px; margin-left: 20px;">
+                    <!-- <button class="back">
+                        back
+                    </button> -->
+                    <button id="btnm">
+                        Next
+                    </button>
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="hide_box" style="font-family: 'STIX Two Text', serif;"></div>
+        <div class="arr"></div>
+
+
+
+        <footer class="footer">
+            <div class="secleft">
+                <div class="contl">
+
+
+                    <div class="logof">
+                        <img src="https://quantumhunts.com/user/assets/images/square1_qh.png" alt="" class="imgf">
+                    </div>
+                    <p class="contentf">
+                        QUANTUMHUNTS is a career platform for connecting job seekers and job providers. We help
+                        companies
+                        build amazing team and build awesome products and services.
+                    </p>
+                </div>
+            </div>
+            <div class="sec_right">
+                <div class="contr">
+                    <div class="f_col">
+                        <h2 class="h2">Company</h2>
+                        <ul class="uls">
+
+
+                            <li class="fli">About us</li>
+                            <li class="fli">Solutions</li>
+                            <li class="fli">Approach</li>
+                            <li class="fli">Events</li>
+
+                        </ul>
+                    </div>
+                    <div class="s_col">
+                        <h2 class="h2">Career</h2>
+                        <ul class="uls">
+
+
+
+                            <li class="fli">Culture</li>
+                            <li class="fli">Careers</li>
+                            <li class="fli">Jobs
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="t_col">
+
+
+                        <h2 class="h2">Support</h2>
+                        <ul class="uls">
+                            <li class="fli">Contact</li>
+                            <li class="fli">Employer Feedback
+                            </li>
+                            <li class="fli">Location
+                            </li>
+                            <li class="fli">Privacy</li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+
+
+.search{
+    display: none;
+    width: 0px;
+}
+
+.recruiter{
+    display: none;
+    width: 0;
+}
+
+.left{
+    width: 23%;
+}
+
+.box_in{
+    display: none;
+    width: 0px;
+}
+
+.box{
+    margin-left: 270px;
+    width: 299px;
+    margin-right: 285px;
+    /* overflow-x: hidden; */
+}
+
+.question{
+    font-size: 23px;
+    width: 322px;
+}
+
+.btnm{
+    margin: 16px 0px;
+    padding: 12px 38px;
+    width: 102px;
+}
+
+.ulm{
+    width: 370px;
+}
+
+.fli{
+    width: 78px;
+}
+
+.logo {
+    margin: 14px 15px;
+}
+
+.contl{
+    margin-top: 104px;
+    grid-row-gap: 100px;
+    height: 172.5px;
+    width: 200px;
+    margin-left: 41px;
+}
+
+.footer{
+   
+    background-color: #323a46;
+    height: 662px;
+    display: flex;
+    width: 99%;
+    flex-direction: column;
+    
+}
+    
+.sec_left{
+    width: 100%;
+}
+.sec_right {
+    width: 100%;
+}
+
+.user_img {
+    margin: 18px 20px;
+}
+
+.question{
+    font-size: 28px;
+
+}
+
+.li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fli{
+    width: 60px;
+}
+
+.left{
+    width: 33%;
+}
+
+.ulm{
+    width: 327px;
+}
+
+.contentf{
+    width: 269px;
+}
+.arr{
+    display: none;
+    padding: 31px;
+    width: 273px;
+}
+.s
+.butns{
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+     margin-top: 51px;
+}
+
+.back{
+    margin: 16px 23px;
+    padding: 12px 38px;
+    width: 102px;
+}
+
+.submit_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 17px;
+    background-color: #e8e8fd;
+    border-radius: 15px;
+    width: 283px;
+}
+.instruction_sec{
+    height: 93vh;
+}
+.instruction_box{
+    width: 290px;
+}
